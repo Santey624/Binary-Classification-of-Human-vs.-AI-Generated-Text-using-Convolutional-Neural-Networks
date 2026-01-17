@@ -1,0 +1,11 @@
+# data handling
+pandas
+numpy
+
+# machine learning and deep learning
+scikit-learn
+tensorflow
+tensorflow-metal # for Mac GPU acceleration
+
+# visualization
+matplotlib
