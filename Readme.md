@@ -1,15 +1,15 @@
-# create an environment
+# Binary Classification of Human vs. AI-Generated Text
+
+Classifies text as human-written or AI-generated using a convolutional neural network (CNN) built with TensorFlow/Keras.
+
+## Setup
+
+```bash
 python3 -m venv aitextdetection
-
-# get inside the environment
 source aitextdetection/bin/activate
+pip install -r requirements.txt
+```
 
-Install the Extension: Open VS Code, go to the Extensions view (Cmd+Shift+X), and search for "Google Colab" (published by Google). Install it.
+## Tech Stack
 
-This project was runned on the pip version of 25.3
-
-# install the packages from requirements.txt
-If you want to do manually, refer to the items in the requirements.txt and 
-pip install package, e.g, pip install pandas
-and do it for every items in the requirements.txt
-
+Python, TensorFlow/Keras, scikit-learn, pandas, NumPy, matplotlib
